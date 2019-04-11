@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip Calculator</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   	<link rel="stylesheet" type="text/css" href="./style.css">
+    <script type="text/javascript" src="./action.js"></script>
+</head>
+
+
+<body>		
+			<div class="container">
+				<div class="row" >
+					<div class="col-sm-12">
+						<br>
+						<h1>TIP-CALCULATOR</h1>
+						<br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<h4>Enter Bill Amount:</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<p>Bill Amount:</p>
+						<input type="number" id="billAmount" placeholder="0.0" value="0">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<br>
+						<h4>How was the Service</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<br>
+						<button class="btn-default button" onclick="calculateTip(0.05)">Below Average Service 5%</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<button class="btn-default button" onclick="calculateTip(0.10)">Average Service 10%</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<button class="btn-default button" onclick="calculateTip(0.15)">Above Average Service 15%</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<button class="btn-default button" onclick="calculateTip(0.20)">Excellent Service 20%</button>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<br>
+						<h4>Amount To Tip:</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div id="tipAmount" class="textLarge">$</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<h4>Total Bill:</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div id="totalBill" class="textLarge">$</div>
+					</div>
+				</div>
+
+			</div>
+
+</body>
+</html>

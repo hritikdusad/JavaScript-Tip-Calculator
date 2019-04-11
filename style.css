@@ -1,0 +1,33 @@
+body{
+	background-color: white;
+	margin:auto;
+	padding-top: 130px;
+	text-align: center;	
+	font-size: 15px;
+	color:white;
+}
+
+.container{
+	border-radius: 22px;
+	width: 350px;
+	height:550px;
+	background-color:black;
+	text-align: left;
+
+}
+
+#tipAmount{
+	text-align: 
+}
+
+.textLarge{
+	font-size:20px;
+}
+
+.percents{
+	background-color: blue;
+}
+
+#billAmount{
+	border-radius: 5px;
+}

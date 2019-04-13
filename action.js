@@ -13,8 +13,8 @@ function calculateTip (i) {
 	    document.getElementById("totalBill").innerHTML = "$" + billTotal.toFixed(2);
   	}
   	else{
-  		document.getElementById("tipAmount").innerHTML = "Enter a valid Amount";
-  		document.getElementById("totalBill").innerHTML = "Enter a valid Amount";
+  		alert("Please enter a valid amount");
+      
   	}    
    
 }
